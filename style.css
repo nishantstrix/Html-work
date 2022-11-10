@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*****************defalut values******************/
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+h1{
+    font-family: 'Archivo', sans-serif;
+   font-size: 70px;
+   line-height: 70px;
+   font-weight: 600;
+}
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 48px;
+}
+h3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.9px;
+}
+p {
+    font-size: 23px;
+    line-height: 25px;
+}
+.container-main {
+    width: 100%;
+    max-width: 1266px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/********************************************************header*********************************************/
+header {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo img {
+    height: auto;
+    width: 100%;
+    max-width: 245px;
+}
+.menu {
+    width: 64%;
+    text-align: center;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
+    padding: 0 50px;
+}
+.menu a {
+    color: #010B25;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.menu a:hover {
+    color: hotpink;
+}
+.button {
+    width: 14%;
+}
+.button a {
+    background: #C4AA7B;
+    max-width: 160px;
+    width: 100%;
+    display: flex;
+    height: 42px;
+    transition: 0.4s;
+    border-radius: 28px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.button a span {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.button a:hover {
+    background: darkblue;
+}
+/*************************************************banner*************************************************/
+.banner {
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 493px;
+}
+.text-box {
+    text-align: center;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.our-project {
+    width: 50%;
+    padding-top: 50px;
+}
+.our-project h1 {
+    color: #FFFFFF;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.our-project p {
+    color: #FFFFFF;
+}
+.vtg {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+    width: 50%;
+    align-items: center;
+    padding-top: 20px;
+}
+.v-carbon {
+    width: 33%;
+}
+.v-carbon img {
+    width: 100%;
+    max-width: 148px;
+    height: auto;
+}
+.t-rec {
+    width: 33%;
+}
+.t-rec img {
+    width: 100%;
+    max-width: 217px;
+    height: auto;
+}
+.g-standard {
+    width: 29%;
+}
+.g-standard img {
+    width: 100%;
+    max-width: 113px;
+    height: auto;
+}
+/******************************************all-plant**************************************************/
+.all-plant {
+    width: 100%;
+    margin: 100px 0;
+}
+.mw-solar {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.solar-plant {
+    width: 48%;
+}
+.solar-plant img {
+    width: 100%;
+    max-width: 570px;
+    height: auto;
+}
+.solar-project {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.s.plant {
+    width: 100%;
+}
+.s.plant img {
+    max-width: 54.81px;
+    width: 100%;
+    height: auto;
+}
+.westview {
+    width: 100%;
+    padding-bottom: 40px;
+}
+.westview h2 {
+    padding-bottom: 20px;
+}
+.w-farm {
+    width: 100%;
+    padding-bottom: 46px;
+}
+.w-farm img {
+    width: 100%;
+    max-width: 49px;
+    height: auto;
+}
+.h-project {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.h-project img {
+    width: 100%;
+    max-width: 59.02px;
+    height: auto;
+}
+/*********************************************footer******************************************************/
+footer {
+    width: 100%;
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 75px
+}
+.one {
+    width: 21%;
+}
+.zero-net {
+    width: 100%;
+    padding-bottom: 26px;
+}
+.zero-net img {
+    width: 100%;
+    max-width: 165px;
+    height: auto;
+}
+.social-icon img {
+    width: 100%;
+    max-width: 24px;
+    height: 24px;
+}
+.social-icon a img:hover {
+    background: aqua;
+}
+.two {
+    width: 30%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.company h3 {
+    padding-bottom: 12px;
+}
+.company p {
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #0E0F1D;
+}
+.company p:hover {
+    color: hotpink;
+}
+.contribute h3 {
+    padding-bottom: 12px;
+}
+.contribute p {
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #0E0F1D;
+}
+.contribute p:hover {
+    color: hotpink;
+}
+.three {
+    width: 35%;
+   
+}
+.form-text {
+    position: absolute;
+}
+.form-text img {
+    width: 100%;
+    max-width: 32px;
+    position: relative;
+    height: 32px;
+    left: 254px;
+    bottom: 40px;
+}
+input#fname {
+    width: 100%;
+    height: 46px;
+    padding-left: 43px;
+    max-width: 289px;
+    position: relative;
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 400;
+    border: none;
+    background: #F5F5F5;
+    border-radius: 25px;
+}
+input#fname:hover {
+    background: antiquewhite;
+    color: blue;
+}
+.last {
+    width: 100%;
+}
+.last p {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+.last p:hover {
+    color: red;
+}
+
+
+/*******************************moblie responsive*************************************/
+/******************************************1170******************************/
+@media(max-width:1170px){
+    .westview h2 {
+        font-size: 40px;
+    }
+.westview p {
+    font-size: 22px;
+    line-height: 25px;
+}
+.s.plant {
+    width: 100%;
+}
+}
+/**********************************1024***********************************/
+@media(max-width:1024px) {
+
+    .our-project h1 {
+        font-size: 60px;
+    }
+    .our-project p {
+        font-size: 20px;
+    }
+    
+    .westview {
+        padding-bottom: 0;
+    }
+    .westview h2 {
+        padding-bottom: 0;
+    }
+    .westview p {
+        font-size: 21px;
+    }
+    .w-farm {
+        padding-bottom: 0;
+    }
+    .h-project {
+        padding-bottom: 0;
+    }
+}
+/*************************
+/*************************990******************************/
+@media(max-width:990px){
+    .our-project {
+       width: 100%; 
+       
+    }
+.all-plant {
+    margin: 50px 0;
+}
+.solar-plant img {
+    max-width: 450px;
+}
+h2 {
+    font-size: 35px;
+}
+.westview p {
+    font-size: 19px;
+}
+.s.plant img {
+    max-width: 46.81px;
+}
+.w-farm img {
+    max-width: 41px;
+}
+.h-project img {
+    max-width: 51.02px;
+}
+}
+/*************************768**************************/
+@media(max-width:768px){
+
+    .our-project h1 {
+        font-size: 50px;
+    }
+.our-project p {
+    font-size: 16px;
+}
+.westview h2 {
+    font-size: 25px;
+}
+.westview p {
+    font-size: 16px;
+}
+.s.plant img {
+    max-width: 31.81px;
+}
+.w-farm img {
+    max-width: 35px;
+}
+.h-project img {
+    max-width: 45.02px;
+}
+}
+/***********************************767***************************/
+@media(max-width:767px){
+    .logo {
+        width: 28%;
+    }
+    .logo img {
+        max-width: 180px;
+    }
+    .menu {
+        width: 42%;
+        text-align: center;
+    }
+    .menu li {
+        padding: 0 30px;
+    }
+    .button {
+        width: 22%;
+    }
+    .banner {
+        height: 290px;
+        padding: 0;
+    }
+    .westview {
+       
+        padding-bottom: 0;
+    }
+    .our-project {
+        width: 100%;
+        padding-top: 0;
+    }
+    .our-project h1 {
+        font-size: 40px;
+    }
+    .our-project p {
+        padding: 0 53px;
+    }
+    .text-box {
+        width: 96%;
+    }
+    .vtg {
+        width: 80%;
+        padding-top: 0;
+    }
+    .v-carbon img {
+        max-width: 110px;
+    }
+    .g-standard img {
+        max-width: 76px;
+    }
+    .t-rec img {
+        max-width: 142px;
+    }
+    .mw-solar {
+       flex-direction: column;
+    }
+    .solar-plant {
+        width: 100%;
+    }
+    .solar-plant img {
+        max-width: 100%;
+    }
+    .solar-project {
+        width: 100%;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .one {
+        width: 100%;
+    }
+    .two {
+        flex-direction: column;
+        width: 100%;
+    }
+    .three {
+        width: 100%;
+    }
+    .company h3 {
+       padding: 0; 
+    }
+    .contribute h3 {
+        padding: 0;
+    }
+    .zero-net {
+        padding-bottom: 12px;
+    }
+
+}
+/***********************************480*************************************************/
+@media(max-width:480px) {
+    .row {
+        padding: 0;
+        flex-direction: column;
+    }
+    .logo {
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+        text-align: left;
+    }
+    .menu li {
+        padding: 0;
+        flex-direction: column;   
+        align-items: baseline; 
+        display: flex;
+    }
+    
+    .button {
+        width: 100%;
+    }
+
+
+    
+    
+    
+    .banner {
+        height: 545px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+.text-box {
+    width: 100% !important;
+    position: static;
+}
+.all-plant {
+    margin: 0;
+}
+
+}
+/*****************************320**********************************/
+@media(max-width:320px){
+.our-project p {
+    padding:0; 
+}
+.westview {
+    padding-bottom: 20px;
+}
+.westview h2 {
+    line-height: 28px;
+}
+.westview p {
+    line-height: 20px;
+}
+.our-project p {
+    line-height: 20px;
+}
+}
